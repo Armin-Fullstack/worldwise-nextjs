@@ -47,3 +47,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.min-h {
+  min-height: calc(100vh - 5rem);
+}
