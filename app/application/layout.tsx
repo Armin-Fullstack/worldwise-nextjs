@@ -41,7 +41,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         {children}
         <footer className="mt-auto">
-          <p>&copy;CopyRight 2024 by Worldwise Inc.</p>
+          <p className="text-color-light-1 text-sm">
+            &copy;CopyRight 2024 by Worldwise Inc.
+          </p>
         </footer>
       </div>
       <div className="bg-gray-500">Map</div>
